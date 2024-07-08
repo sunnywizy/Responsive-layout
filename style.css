@@ -219,7 +219,84 @@ footer .text {
 }
 
 
+
 /*This is for the small screen size*/
+
+
+@media (max-width: 1000px) {
+    .menu--btn {
+        display: block;
+    }
+
+    .nav__links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background: #2E323F;
+    }
+
+    .nav__list {
+        flex-direction: column;
+    }
+
+    .nav__items {
+        margin: 3px 0;
+    }
+
+    .active {
+        display: flex;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .hero__section {
+        flex-direction: column;
+    }
+
+    .hero--title {
+        font-size: 90px;
+    }
+
+    .flex-end {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero--btn {
+        width: 50%;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .box {
+        width: 250px;
+    }
+
+    .box p, .box h2 {
+        width: 200px;
+    }
+
+    .medium--col {
+        display: flex;
+    }
+
+    .big-title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    footer .text {
+        width: 250px;
+    }
+}
+
+
 @media (max-width: 600px) {
     .menu--btn {
         display: block;
@@ -280,78 +357,8 @@ footer .text {
         width: 200px;
     }
 
-    .big-title {
-        font-size: 40px;
-        line-height: 50px;
-    }
-
-    footer .text {
-        width: 250px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .menu--btn {
-        display: block;
-    }
-
-    .nav__links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        background: #2E323F;
-    }
-
-    .nav__list {
-        flex-direction: column;
-    }
-
-    .nav__items {
-        margin: 3px 0;
-    }
-
-    .active {
-        display: flex;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    .hero__section {
-        flex-direction: column;
-    }
-
-    .hero--title {
-        font-size: 90px;
-        line-height: 50px;
-    }
-
-    .flex-end {
-        margin: 0;
-        padding: 0;
-    }
-
-    .hero--btn {
-        width: 100%;
-        margin: 0;
-        font-size: 16px;
-    }
-
-    .box {
-        width: 250px;
-    }
-
-    .box p, .box h2 {
-        width: 200px;
-    }
-
     .medium--col {
-        display: flex;
+        flex-direction: column;
     }
 
     .big-title {
