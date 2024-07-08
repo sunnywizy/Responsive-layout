@@ -220,7 +220,7 @@ footer .text {
 
 
 /*This is for the small screen size*/
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .menu--btn {
         display: block;
     }
