@@ -260,7 +260,6 @@ footer .text {
 
     .hero--title {
         font-size: 50px;
-        line-height: 50px;
     }
 
     .flex-end {
@@ -349,11 +348,11 @@ footer .text {
     }
 
     .box {
-        width: 250px;
+        width: 200px;
     }
 
     .box p, .box h2 {
-        width: 200px;
+        width: 160px;
     }
 
     .medium--col {
