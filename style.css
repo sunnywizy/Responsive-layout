@@ -221,8 +221,8 @@ footer .text {
 
 
 /*This is for the small screen size*/
+@media (min-width: 576px) and (max-width: 767.98px) {
 
-@media (max-width: 600px) {
     .menu--btn {
         display: block;
     }
@@ -296,7 +296,8 @@ footer .text {
     }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
     .menu--btn {
         display: block;
     }
@@ -333,7 +334,7 @@ footer .text {
     }
 
     .hero--title {
-        font-size: 90px;
+        font-size: 70px;
     }
 
     .flex-end {
